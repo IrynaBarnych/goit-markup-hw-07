@@ -28,11 +28,23 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 428px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
 }
 
 ul {
@@ -57,13 +69,31 @@ ul {
 
 /*logo*/
 
-.header-container {
+@media (min-width: 768px) {
+  .header-container-mobile {
+    display: none;
+  }
+}
+
+.header-container-desktop {
   display: flex;
   align-items: center;
   gap: 40px;
 
   border-bottom-style: solid;
   border-bottom-color: var(--accent);
+}
+
+@media (max-width: 1200px) {
+  .header-container-desktop {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container-desktop {
+    display: none;
+  }
 }
 
 .header-nav {
