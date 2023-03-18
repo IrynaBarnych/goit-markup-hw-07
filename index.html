@@ -56,7 +56,8 @@
         </div>
         <div class="header-container-mobile">
           <a href="./index.html" class="logo_first"
-            >Web<span class="logo_second">Studio</span></a>
+            >Web<span class="logo_second">Studio</span></a
+          >
 
           <button class="header-hamburger js-open-menu" type="button">
             <svg width="32" height="22">
@@ -67,12 +68,12 @@
         <div class="mobile-menu js-menu-container">
           <button class="modal-mobile js-close-menu" type="button">
             <svg class="button-modal-mobile">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-            
-        <nav class="header-nav">
-              <ul class="site-nav list">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="header-nav">
+            <ul class="site-nav list">
               <li><a href="./index.html" class="link current">Studio</a></li>
               <li><a href="./portfolio.html" class="link">Portfolio</a></li>
               <li><a href="" class="link">Contacts</a></li>
@@ -82,16 +83,50 @@
             <ul class="addres-contact list">
               <li>
                 <a href="mailto:info@devstudio.com" class="link current"
-                  >info@devstudio.com</a>
+                  >info@devstudio.com</a
+                >
               </li>
               <li>
                 <a href="tel:+110001111111" class="link current"
-                  >+11 (000) 111-11-11</a>
+                  >+11 (000) 111-11-11</a
+                >
               </li>
             </ul>
           </address>
-        </div>
+          <ul class="mobile-list">
+            <li class="mobile-class">
+              <a href="" class="icon-mobile">
+                <svg class="mobile-item">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
 
+            <li class="mobile-list">
+              <a href="" class="icon-mobile">
+                <svg class="mobile-item">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-list">
+              <a href="" class="icon-mobile">
+                <svg class="mobile-item">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-list">
+              <a href="" class="icon-mobile">
+                <svg class="mobile-item">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -169,6 +204,7 @@
           <ul class="doing-section">
             <li class="doing-colm">
               <img
+                srcset="./images/img_1.jpg 1x, ./images/img_1@2x.jpg 2x"
                 class="photo"
                 src="./images/img_1.jpg"
                 alt="img1"
@@ -177,6 +213,7 @@
             </li>
             <li class="doing-colm">
               <img
+                srcset="./images/img_2.jpg 1x, ./images/img_2@2x.jpg 2x"
                 class="photo"
                 src="./images/img_2.jpg"
                 alt="img2"
@@ -185,6 +222,7 @@
             </li>
             <li class="doing-colm">
               <img
+                srcset="./images/img_3.jpg 1x, ./images/img_1@3x.jpg 2x"
                 class="photo"
                 src="./images/img_3.jpg"
                 alt="img3"
@@ -202,6 +240,10 @@
             <li class="worker-fon">
               <img
                 class="photo"
+                srcset="
+                  ./images/team_card_1.jpg    1x,
+                  ./images/team_card_1@2x.jpg 2x
+                "
                 src="./images/team_card_1.jpg"
                 alt="Team Card 1"
                 width="264"
@@ -249,6 +291,10 @@
             <li class="worker-fon">
               <img
                 class="photo"
+                srcset="
+                  ./images/team_card_2.jpg    1x,
+                  ./images/team_card_2@2x.jpg 2x
+                "
                 src="./images/team_card_2.jpg"
                 alt="Team Card 2"
                 width="264"
@@ -296,6 +342,10 @@
             <li class="worker-fon">
               <img
                 class="photo"
+                srcset="
+                  ./images/team_card_3.jpg    1x,
+                  ./images/team_card_3@2x.jpg 2x
+                "
                 src="./images/team_card_3.jpg"
                 alt="Team Card 3"
                 width="264"
@@ -343,6 +393,10 @@
             <li class="worker-fon">
               <img
                 class="photo"
+                srcset="
+                  ./images/team_card_4.jpg    1x,
+                  ./images/team_card_4@2x.jpg 2x
+                "
                 src="./images/team_card_4.jpg"
                 alt="Team Card 4"
                 width="264"
@@ -392,7 +446,7 @@
           </ul>
         </div>
       </section>
-            <section class="customers-block">
+      <section class="customers-block">
         <div class="container">
           <h2 class="title-customers">Customers</h2>
 
@@ -455,7 +509,7 @@
             <a href="./index.html" class="logo_first"
               >Web<span class="logo_second_footer">Studio</span></a
             >
-            <div class="footer-text">
+            <!--<div class="footer-text">-->
             <p class="footer-text">
               Increase the flow of customers and sales for your business with
               digital marketing & growth solutions.
@@ -518,7 +572,7 @@
           </div>
         </div>
       </div>
-    </footer> 
+    </footer>
 
     <div class="backdropt is-hidden" data-modal>
       <div class="modal">
