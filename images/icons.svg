@@ -77,6 +77,14 @@
 <symbol id="icon-subscribe" viewBox="0 0 24 24">
 <path  d="M24 2l-24 11.25 7.67 2.367 11.83-9.242-8.998 10.116 0.007 0.002-0.009-0.002v5.509l4.301-4.182 5.449 1.682 3.75-17.5z"></path>
 </symbol>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs><symbol id="icon-charm_menu-hamburger" viewBox="0 0 35 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.273" d="M1.47 21.865h32.224M1.47 11.711h32.224M1.47 1.558h32.224"/></symbol></defs></svg>
+
+<symbol id="icon-menu-hamburger" viewBox="0 0 35 24">
+<path d="M0 0h34.909v24h-34.909v-24z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2727" d="M1.47 21.865h32.224M1.47 11.711h32.224M1.47 1.558h32.224"></path>
+</symbol>
+
 </defs>
 </svg>
 
