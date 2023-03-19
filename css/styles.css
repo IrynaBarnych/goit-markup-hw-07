@@ -287,7 +287,7 @@ ul {
     letter-spacing: 0em;
     text-align: left;
     color: var(--primary-brand);
-    padding: 0;
+    padding-left: 40px;
   }
 }
 
@@ -871,6 +871,13 @@ ul {
   }
 }
 
+@media (max-width: 768px) {
+  .customers-photo {
+    flex-basis: calc((100% - 32px) / 2);
+    align-items: center;
+  }
+}
+
 .customers-icon {
   fill: var(--subtle-text);
   border: 1px solid var(--subtle-text);
@@ -920,6 +927,13 @@ ul {
   }
 }
 
+@media (max-width: 1200px) {
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-info {
     display: flex;
@@ -962,8 +976,15 @@ ul {
   .footer-contect {
     margin-top: 72px;
     margin-bottom: 72px;
+    display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-contect {
+    margin-left: 24px;
   }
 }
 
@@ -1010,18 +1031,11 @@ ul {
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .footer-subscribe {
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media (max-width: 1200px) {
-  .footer-subscribe {
-    margin-left: -43px;
   }
 }
 
@@ -1031,6 +1045,22 @@ ul {
   padding-right: 0;
   margin-right: 0;
   color: var(--second-text-color);
+}
+
+@media (max-width: 1200px) {
+  .title-subscribe {
+    margin-right: 0;
+    margin-right: 370px;
+    margin-top: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-subscribe {
+    margin-right: 0;
+    margin-right: 0;
+    margin-top: 0px;
+  }
 }
 
 .subscribe {
@@ -1044,8 +1074,9 @@ ul {
 
 @media (max-width: 768px) {
   .subscribe {
+    display: flex;
     flex-wrap: nowrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 }
@@ -1061,6 +1092,13 @@ ul {
 }
 
 @media (max-width: 1200px) {
+  .input-subscribe {
+    width: 264px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
   .input-subscribe {
     width: 398px;
     height: 40px;
@@ -1104,7 +1142,13 @@ textarea#subscribe-name {
 
 @media (max-width: 768px) {
   .social-list {
-    padding: 0 16px 0 12px;
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .social-list {
+    padding: 0 16px 0 16px;
   }
 }
 
